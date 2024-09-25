@@ -94,7 +94,7 @@ btn_down = tk.Button(flechas_frame, text="⬇", font=("Arial", 20), command=lamb
 btn_down.grid(row=2, column=1, columnspan=3, padx=10, pady=10)
 
 # Flechas izquierda (90° y 180°), detenerse, y derecha (90° y 180°)
-btn_left_180 = tk.Button(flechas_frame, text="⬅ 180°", font=("Arial", 20), command=lambda: enviar_datos("180° a la izquierda"))
+btn_left_180 = tk.Button(flechas_frame, text="⬅ 360°", font=("Arial", 20), command=lambda: enviar_datos("360° a la izquierda"))
 btn_left_180.grid(row=1, column=0, padx=10, pady=10)
 
 btn_left_90 = tk.Button(flechas_frame, text="⬅ 90°", font=("Arial", 20), command=lambda: enviar_datos("90° a la izquierda"))
@@ -107,7 +107,7 @@ btn_detenerse.grid(row=1, column=2, padx=10, pady=10)
 btn_right_90 = tk.Button(flechas_frame, text="➡ 90°", font=("Arial", 20), command=lambda: enviar_datos("90° a la derecha"))
 btn_right_90.grid(row=1, column=3, padx=10, pady=10)
 
-btn_right_180 = tk.Button(flechas_frame, text="➡ 180°", font=("Arial", 20), command=lambda: enviar_datos("180° a la derecha"))
+btn_right_180 = tk.Button(flechas_frame, text="➡ 360°", font=("Arial", 20), command=lambda: enviar_datos("360° a la derecha"))
 btn_right_180.grid(row=1, column=4, padx=10, pady=10)
 
 # Crear la tabla para mostrar los últimos 10 registros
